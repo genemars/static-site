@@ -63,7 +63,7 @@ The options for Static Site are below (with their default values).
 | helpers | `[]` | array of helper files to run |
 | files | `['html', 'md', 'markdown']` | array of file extentions to parse (in addition to default extensions) |
 | templateEngine | `false` | path to custom template engine file  |
-| prettyUrl | `true` | default pretty urls setting |
+| prettyUrl | `true` | default pretty urls setting in front matter |
 
 **ProTip** If you pass an option that Static Site doesn't recognize, it will add that option to each page's frontmatter. For example, if you run `static-site --production`, then in your template you can check for the `{{production}}` variable. Frontmatter will override data added with extra options, making this a good way to set default templates as well.
 
